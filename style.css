@@ -8,7 +8,9 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 /* .base{
 border: 1px solid black;
 } */
-
+body{
+    background-color: rgb(240 234 246);
+}
 #box{
         width: 290px;
         height: 496px;

@@ -77,4 +77,5 @@ function calculateresult(){
     result.value = eval(screen);
     console.log(eval(screen))
     document.getElementById("input").innerText = result.value;
+    screen = "";
 }
