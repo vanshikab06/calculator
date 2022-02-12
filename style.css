@@ -1,0 +1,82 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/* .base{
+border: 1px solid black;
+} */
+
+#box{
+        width: 290px;
+        height: 496px;
+        margin: 39px auto;
+        border: 1px solid black;
+        box-shadow: 0px 0px 10px rgb(0 0 0);
+        border-radius: 16px;
+        padding: 5px 5px;
+        background-color: #f7f6ff;
+
+}
+/* #input{
+    height: 150px;
+    
+} */
+#input{
+    margin: 9px 8px;
+    width: -webkit-fill-available;
+    height: 150px;
+    background-color: white;
+    border: 2px solid blueviolet;
+    box-shadow: 0px 0px 5px blueviolet;
+    font-size: 38px;
+    text-align-last: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.column{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    
+}
+#row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#row button{
+    padding: 15.5%;
+    margin: 5px 5px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: 2px solid blueviolet;
+    background-color: #f7f6ff;
+    box-shadow: 0px 0px 4px 0px blueviolet;
+}
+#row button:hover{
+    background-color: rgba(137, 43, 226, 0.582);
+}
+#row button:active{
+    background-color: rgb(133, 42, 222, 78%);
+    border: 2px solid rgb(133, 42, 222, 78%);
+    box-shadow: none;
+}
+
+.bold{
+    font-weight: bolder;
+}
+.light{
+    color: gray;
+}
+#equal{
+    background-color: #8a2be2ad;
+    font-weight: 900;
+}
+#equal:hover{
+    background-color: blueviolet;
+}
