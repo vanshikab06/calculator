@@ -72,3 +72,9 @@ function clearscreen(){
     document.getElementById("input").innerText = screen;
 }
 
+function calculateresult(){
+    let result = document.getElementById("input");
+    result.value = eval(screen);
+    console.log(eval(screen))
+    document.getElementById("input").innerText = result.value;
+}
