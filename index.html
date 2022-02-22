@@ -7,47 +7,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
+    
 </head>
 
 <body>
     <div id="container" class="base">
         <div id="box" class="base">
             <div id="input">
-                 <!-- <input type="text" id="res">  -->
+                 <!-- <input type="text" id="result">  -->
                 </div>
             <div id="row">
                 <div class="column">
-                    <button class="bold" onclick="clearscreen()">AC</button>
-                    <button onclick="sevenc()">7</button>
-                    <button onclick="fourc()">4</button>
-                    <button onclick="onec()">1</button>
-                    <button onclick="zeroc()">0</button>
+                    <button class="bold remove" id="clear">AC</button>
+                    <button value="7">7</button>
+                    <button value="4">4</button>
+                    <button value="1">1</button>
+                    <button value="0">0</button>
                 </div>
                 <div class="column">
-                    <button class="bold">&#8678</button>
-                    <button onclick="eightc()">8</button>
-                    <button onclick="fivec()">5</button>
-                    <button onclick="twoc()">2</button>
-                    <button class="bold" onclick="dotc()">&#46</button>
+                    <button class="bold remove" id="backBtn">&#8678</button>
+                    <button value="8">8</button>
+                    <button value="5">5</button>
+                    <button value="2">2</button>
+                    <button class="bold" value=".">&#46</button>
                 </div>
                 <div class="column">
-                    <button class="bold" onclick="perc()">&#37</button>
-                    <button onclick="ninec()">9</button>
-                    <button onclick="sixc()">6</button>
-                    <button onclick="thrc()">3</button>
-                    <button class="bold">&#8203</button>
+                    <button class="bold" value="%">&#37</button>
+                    <button value="9">9</button>
+                    <button value="6">6</button>
+                    <button value="3">3</button>
+                    <button value="00">00</button>
                 </div>
                 <div class="column">
-                    <button class="bold" onclick="dividec()">&#247</button>
-                    <button class="bold" onclick="multc()">&#215</button>
-                    <button class="bold" onclick="minc()">&#8722</button>
-                    <button class="bold" onclick="plusc()">&#43</button>
-                    <button class="bold" onclick="calculateresult()">&#61</button>
+                    <button class="bold" value="/">&#247</button>
+                    <button class="bold" value="*">&#215</button>
+                    <button class="bold" value="-">&#8722</button>
+                    <button class="bold" value="+">&#43</button>
+                    <button class="bold remove" id="equal">&#61</button>
                 </div>
             </div>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 
 </html>
